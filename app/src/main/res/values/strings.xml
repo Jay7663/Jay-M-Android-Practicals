@@ -1,3 +1,24 @@
 <resources>
     <string name="app_name">Android Practical</string>
+    <string name="go_to_ui_widgets">Go To Ui Widgets</string>
+    <string name="radio_button">Radio Button</string>
+    <string name="this_is_ui_widgets">This is Ui Widgets</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="custom_toast">Custom Toast</string>
+    <string name="go_to_form">Go To Form</string>
+    <string name="welcome_to_ui_widgets_form">Welcome to UI Widgets Form</string>
+    <string name="this_is_switch">This is Switch</string>
+    <string name="this_is_toggle">This is Toggle</string>
+    <string name="gender">Gender :</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="submit">Submit</string>
+    <string name="this_is_image_button">This is Image Button</string>
+    <string name="this_is_a_custom_toast">This is a custom Toast</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="sports">Sports</string>
+    <string name="programming">Programming</string>
+    <string name="gaming">Gaming</string>
+    <string name="toggle_button_background_white">White Background</string>
+    <string name="toggle_button_background_green">Green Background</string>
 </resources>
