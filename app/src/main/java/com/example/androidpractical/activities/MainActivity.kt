@@ -10,12 +10,20 @@ import com.example.androidpractical.R
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setTitle(getString(R.string.activity_name_main_activity))
         setContentView(R.layout.activity_main)
 
-        val btnGoToUiWidgets: Button = findViewById(R.id.btn_Ui_Widgets)
+        val btnGoToUiWidgets: Button = findViewById(R.id.btnUiWidgets)
+        val btnLayouts: Button = findViewById(R.id.btnLayouts)
+
         btnGoToUiWidgets.setOnClickListener {
             Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
             val intent = Intent(this, UiWidgetsActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnLayouts.setOnClickListener {
+            val intent = Intent(this, AllLayoutsActivity::class.java)
             startActivity(intent)
         }
     }
