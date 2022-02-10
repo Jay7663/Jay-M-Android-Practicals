@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="4"
+    android:orientation="horizontal"
+    tools:context=".activities.GridLayoutActivity">
+
+    <ImageButton
+        android:id="@+id/imgBtn1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imgBtn2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imgBtn3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imgBtn4"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imgBtn5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imgBtn6"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+
+    <ImageButton
+        android:id="@+id/imgBtn7"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_baseline_work_outline_24" />
+</GridLayout>

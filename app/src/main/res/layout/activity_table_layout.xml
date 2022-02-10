@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="5dp"
+    tools:context=".activities.TableLayoutActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:text="@string/table_layout_title"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TableRow
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/light_grey"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:text="@string/table_layout_header_first_name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_weight="1"
+            android:text="@string/table_layout_header_last_name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_jay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_modhawadiya"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_satish"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_modhawadiya"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_yagnik"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_bavishi"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_meet"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_mistry"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_jay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_mistry"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_yagnik"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_modhawadiya"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_satish"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_mistry"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_jay"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_bavishi"
+            android:textSize="18sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_marginVertical="5dp"
+        android:background="@color/lightest_grey">
+
+        <TextView
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_first_name_meet"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:paddingHorizontal="5dp"
+            android:text="@string/table_layout_last_name_bavishi"
+            android:textSize="18sp" />
+    </TableRow>
+</TableLayout>
