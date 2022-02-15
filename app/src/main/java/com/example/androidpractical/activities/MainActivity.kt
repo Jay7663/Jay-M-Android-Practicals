@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val btnGoToUiWidgets: Button = findViewById(R.id.btnUiWidgets)
         val btnLayouts: Button = findViewById(R.id.btnLayouts)
+        val btnRecyclerViewAndAdapters: Button = findViewById(R.id.btnRecyclerViewAndAdapters)
 
         btnGoToUiWidgets.setOnClickListener {
             Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
@@ -24,6 +25,11 @@ class MainActivity : AppCompatActivity() {
 
         btnLayouts.setOnClickListener {
             val intent = Intent(this, AllLayoutsActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnRecyclerViewAndAdapters.setOnClickListener{
+            val intent = Intent(this, RecyclerViewAndAdapters::class.java)
             startActivity(intent)
         }
     }

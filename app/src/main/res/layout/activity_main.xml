@@ -20,4 +20,11 @@
         android:layout_marginHorizontal="30dp"
         android:text="@string/layouts" />
 
+    <Button
+        android:id="@+id/btnRecyclerViewAndAdapters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/recyclerview_and_adapters" />
+
 </LinearLayout>

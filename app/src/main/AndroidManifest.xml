@@ -5,13 +5,31 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:usesCleartextTraffic="true"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AndroidPractical">
+        android:theme="@style/Theme.AndroidPractical"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.ViewPagerWithTabActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.GridWithRecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.BottomNavigationViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RecyclerViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ListViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.RecyclerViewAndAdapters"
+            android:exported="false" />
         <activity
             android:name=".activities.WebViewActivity"
             android:exported="false" />

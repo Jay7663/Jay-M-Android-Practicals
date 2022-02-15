@@ -63,7 +63,7 @@
         android:padding="10dp" />
 
     <CheckBox
-        android:id="@+id/checkbox"
+        android:id="@+id/checkBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etDetails"
@@ -73,7 +73,7 @@
         android:id="@+id/btnSendFeedback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/checkbox"
+        android:layout_below="@+id/checkBox"
         android:text="@string/feedback_send_btn"
         android:textAllCaps="false" />
 
