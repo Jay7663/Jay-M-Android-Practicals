@@ -27,4 +27,11 @@
         android:layout_marginHorizontal="30dp"
         android:text="@string/recyclerview_and_adapters" />
 
+    <Button
+        android:id="@+id/btnActivityIntentFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/activity_intent_and_fragment" />
+
 </LinearLayout>
