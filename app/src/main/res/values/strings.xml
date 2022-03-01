@@ -123,4 +123,22 @@
     <string name="custom_item_movie_label_bio">Bio :</string>
     <string name="favorite_fragment_label">Favorite Fragment</string>
     <string name="home_fragment_label">Home Fragment</string>
+    <string name="activity_intent_and_fragment">Activity, Intent and Fragment</string>
+    <string name="activity_intent_fragment_life_cycle">Life Cycle</string>
+    <string name="activity_intent_fragment_intent">Intent</string>
+    <string name="activity_intent_fragment_bottom_navigation_fragments">Bottom Navigation Fragments</string>
+    <string name="menu_item_fragments_gallery">Gallery</string>
+    <string name="menu_item_fragments_add_message">Add Message</string>
+    <string name="menu_item_fragments_view_message">View Message</string>
+    <string name="implicit_intent_data">data</string>
+    <string name="send_message_fragment_btn_send_text">Send to another Fragment</string>
+    <string name="fragment_send_message_et_hint">Type Something to send</string>
+    <string name="bnv_fragment_switch_jetpack_or_fragment_manager">Jetpack or Fragment Manager</string>
+    <string name="activity_name_bottom_nav_fragments_jetpack">Jetpack Navigation</string>
+    <string name="fragment_view_message_et_hint">Type to send to First Fragment</string>
+    <string name="lifecycle_activity_load_fragment">Load Fragment</string>
+    <string name="lifecycle_activity_button_favorite_text">Load Favorite Fragment</string>
+    <string name="lifecycle_activity_button_home_text">Load Home Fragment</string>
+    <string name="intent_telephone_number">tel:1234567890</string>
+    <string name="bottom_navigation_fragment_activity_state">state</string>
 </resources>

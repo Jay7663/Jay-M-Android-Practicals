@@ -1,10 +1,10 @@
 package com.example.androidpractical.activities
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import com.example.androidpractical.R
 
 class MainActivity : AppCompatActivity() {
@@ -16,6 +16,7 @@ class MainActivity : AppCompatActivity() {
         val btnGoToUiWidgets: Button = findViewById(R.id.btnUiWidgets)
         val btnLayouts: Button = findViewById(R.id.btnLayouts)
         val btnRecyclerViewAndAdapters: Button = findViewById(R.id.btnRecyclerViewAndAdapters)
+        val btnActivityIntentFragment: Button = findViewById(R.id.btnActivityIntentFragment)
 
         btnGoToUiWidgets.setOnClickListener {
             Toast.makeText(this, "Button Clicked", Toast.LENGTH_LONG).show()
@@ -28,8 +29,13 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnRecyclerViewAndAdapters.setOnClickListener{
+        btnRecyclerViewAndAdapters.setOnClickListener {
             val intent = Intent(this, RecyclerViewAndAdapters::class.java)
+            startActivity(intent)
+        }
+
+        btnActivityIntentFragment.setOnClickListener {
+            val intent = Intent(this, ActivityIntentFragmentActivity::class.java)
             startActivity(intent)
         }
     }

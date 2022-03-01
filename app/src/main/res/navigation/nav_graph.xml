@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_gallery">
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.androidpractical.fragments.GalleryAddImageFragment"
+        android:label="GalleryAddImageFragment" />
+    <fragment
+        android:id="@+id/nav_add_message"
+        android:name="com.example.androidpractical.fragments.AddMessageFragment"
+        android:label="AddMessageFragment" />
+    <fragment
+        android:id="@+id/nav_view_message"
+        android:name="com.example.androidpractical.fragments.ViewMessageFragment"
+        android:label="ViewMessageFragment" />
+
+</navigation>

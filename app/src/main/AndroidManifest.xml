@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.androidpractical">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -12,6 +13,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPractical"
         android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activities.BottomNavFragmentsActivity"
+            android:exported="true" >
+            <intent-filter tools:ignore="AppLinkUrlError">
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.LifeCycleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ActivityIntentFragmentActivity"
+            android:exported="false" />
         <activity
             android:name=".activities.ViewPagerWithTabActivity"
             android:exported="false" />
