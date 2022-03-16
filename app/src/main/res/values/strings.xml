@@ -141,4 +141,14 @@
     <string name="lifecycle_activity_button_home_text">Load Home Fragment</string>
     <string name="intent_telephone_number">tel:1234567890</string>
     <string name="bottom_navigation_fragment_activity_state">state</string>
+    <string name="other_important_views">Other Important Views</string>
+    <string name="other_important_views_web_view">WebView</string>
+    <string name="other_important_views_scroll_view">ScrollView</string>
+    <string name="other_important_views_search_view">SearchView</string>
+    <string name="scroll_view_horizontal_categories">Horizontal Categories</string>
+    <string name="scroll_view_vertical_items">Vertical Items</string>
+    <string name="search_view_not_found">Not Found !!!</string>
+    <string name="search_view_query_hint">Search...</string>
+    <string name="web_view_pdf_loader_google_link"><![CDATA[https://drive.google.com/viewerng/viewer?embedded=true&url=]]></string>
+    <string name="web_view_pdf_link">https://www.ets.org/Media/Tests/GRE/pdf/gre_research_validity_data.pdf</string>
 </resources>
