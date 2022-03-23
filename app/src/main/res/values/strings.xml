@@ -151,4 +151,24 @@
     <string name="search_view_query_hint">Search...</string>
     <string name="web_view_pdf_loader_google_link"><![CDATA[https://drive.google.com/viewerng/viewer?embedded=true&url=]]></string>
     <string name="web_view_pdf_link">https://www.ets.org/Media/Tests/GRE/pdf/gre_research_validity_data.pdf</string>
+    <string name="web_services">Web Services</string>
+    <string name="log_in_email_hint_enter_email">Enter Email</string>
+    <string name="log_in_password_hint_enter_password">Enter Password</string>
+    <string name="log_in">Log In</string>
+    <string name="log_in_with_retrofit">Log In with Retrofit</string>
+    <string name="single_user_card_header_profile">Profile</string>
+    <string name="single_user_card_name_of_user">Name of User</string>
+    <string name="single_user_card_email_of_user">Email of User</string>
+    <string name="enter_job">Enter Job</string>
+    <string name="alert_add_user">Add User</string>
+    <string name="password">password</string>
+    <string name="without_third_party_log_in_full_url">https://reqres.in/api/login</string>
+    <string name="reqres_get_users_url_delay_3">https://reqres.in/api/users?delay=3</string>
+    <string name="data">data</string>
+    <string name="id">id</string>
+    <string name="email">email</string>
+    <string name="first_name">first_name</string>
+    <string name="last_name">last_name</string>
+    <string name="avatar">avatar</string>
+    <string name="user_name">%1$s %2$s</string>
 </resources>
