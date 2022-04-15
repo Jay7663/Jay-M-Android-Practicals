@@ -14,6 +14,18 @@
         android:theme="@style/Theme.AndroidPractical"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".activities.MvvmLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MvpLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.MvcLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.ArchitectureHomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".activities.WsRetrofitUserListActivity"
             android:exported="false" />
         <activity

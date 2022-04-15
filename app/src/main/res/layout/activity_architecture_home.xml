@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.ArchitectureHomeActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMvc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/mvc"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMvp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/mvp"
+        app:layout_constraintTop_toBottomOf="@+id/btnMvc" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnMvvm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/mvvm"
+        app:layout_constraintTop_toBottomOf="@+id/btnMvp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

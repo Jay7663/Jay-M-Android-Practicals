@@ -28,7 +28,7 @@
     <string name="feedback_from_title">Enter Feedback details to send to the developer :</string>
     <string name="feedback_name_hint">Enter Name</string>
     <string name="feedback_email_hint">Enter Email</string>
-    <string name="feedback_details_hint">Feedback details...</string>
+    <string name="feedback_details_hint">Feedback details…</string>
     <string name="feedback_checkbox">Would you like an email response ?</string>
     <string name="feedback_send_btn">Send Feedback</string>
     <string name="table_layout">Table Layout</string>
@@ -148,7 +148,7 @@
     <string name="scroll_view_horizontal_categories">Horizontal Categories</string>
     <string name="scroll_view_vertical_items">Vertical Items</string>
     <string name="search_view_not_found">Not Found !!!</string>
-    <string name="search_view_query_hint">Search...</string>
+    <string name="search_view_query_hint">Search…</string>
     <string name="web_view_pdf_loader_google_link"><![CDATA[https://drive.google.com/viewerng/viewer?embedded=true&url=]]></string>
     <string name="web_view_pdf_link">https://www.ets.org/Media/Tests/GRE/pdf/gre_research_validity_data.pdf</string>
     <string name="web_services">Web Services</string>
@@ -171,4 +171,10 @@
     <string name="last_name">last_name</string>
     <string name="avatar">avatar</string>
     <string name="user_name">%1$s %2$s</string>
+    <string name="architecture">Architecture</string>
+    <string name="switch_mvp_or_mvvm">MVP or MVVM</string>
+    <string name="mvc">Mvc</string>
+    <string name="mvp">Mvp</string>
+    <string name="mvvm">Mvvm</string>
+    <string name="enter_any_characters">Enter any characters</string>
 </resources>
