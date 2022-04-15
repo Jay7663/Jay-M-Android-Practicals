@@ -177,4 +177,18 @@
     <string name="mvp">Mvp</string>
     <string name="mvvm">Mvvm</string>
     <string name="enter_any_characters">Enter any characters</string>
+    <string name="permission">Permission</string>
+    <string name="permission_activity_location_permission">Location Permission</string>
+    <string name="permission_activity_dialog_location_message">Location Permission is needed to make application work as desired</string>
+    <string name="permission_activity_dialog_title_file_permission">File Permission</string>
+    <string name="permission_activity_dialog_message_file_permission">File permission is required to select file from the device</string>
+    <string name="permission_activity_dialog_title_camera_permission">Camera permission</string>
+    <string name="permission_activity_dialog_message_camera_permission">Camera Permission is needed to make application function properly</string>
+    <string name="permission_activity_already_have_permission">Already Have Permission</string>
+    <string name="permission_activity_already_granted">Already Granted</string>
+    <string name="permission_activity_settings">Settings</string>
+    <string name="location">Location</string>
+    <string name="files">Files</string>
+    <string name="camera">Camera</string>
+    <string name="media_storage_type_image">image/jpeg</string>
 </resources>
