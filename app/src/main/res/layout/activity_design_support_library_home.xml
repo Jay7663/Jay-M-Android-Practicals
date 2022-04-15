@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.DesignSupportLibraryHomeActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/navigation_view"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCoordinatorScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/coordinator_with_scroll"
+        app:layout_constraintTop_toBottomOf="@+id/btnNavigationView" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTabBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_bar"
+        app:layout_constraintTop_toBottomOf="@+id/btnCoordinatorScroll" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTextFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_fields"
+        app:layout_constraintTop_toBottomOf="@+id/btnTabBar" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,6 +20,7 @@ class MainActivity : AppCompatActivity() {
         val btnWebServices: Button = findViewById(R.id.btnWebServices)
         val btnArchitecture: Button = findViewById(R.id.btnArchitecture)
         val btnPermission: Button = findViewById(R.id.btnPermission)
+        val btnDesignSupportLibrary: Button = findViewById(R.id.btnDesignSupportLibrary)
 
         btnGoToUiWidgets.setOnClickListener {
             val intent = Intent(this, UiWidgetsActivity::class.java)
@@ -58,6 +59,10 @@ class MainActivity : AppCompatActivity() {
 
         btnPermission.setOnClickListener {
             startActivity(Intent(this, PermissionActivity::class.java))
+        }
+
+        btnDesignSupportLibrary.setOnClickListener {
+            startActivity(Intent(this, DesignSupportLibraryHomeActivity::class.java))
         }
 
     }
