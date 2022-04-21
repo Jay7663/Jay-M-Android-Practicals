@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".activities.MvvmLogInActivity">
+
+    <data>
+
+        <variable
+            name="loginViewModel"
+            type="com.example.androidpractical.viewmodels.LogInViewModel" />
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="@string/mvvm"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.15" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/ivProfilePicture"
+            loadImageFromUrl="@{loginViewModel.getProfilePicture()}"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/guideline"
+            tools:src="@tools:sample/avatars" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:hint="@string/log_in_email_hint_enter_email"
+            android:text="@={loginViewModel.emailAddress}"
+            app:layout_constraintTop_toBottomOf="@+id/ivProfilePicture" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/log_in_password_hint_enter_password"
+            android:text="@={loginViewModel.password}"
+            app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="@{() -> loginViewModel.onLogInClick()}"
+            android:text="@string/log_in"
+            app:layout_constraintTop_toBottomOf="@+id/etPassword" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvUpperCase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@{loginViewModel.upperCaseText}"
+            android:textAlignment="center"
+            app:layout_constraintTop_toBottomOf="@+id/btnLogIn" />
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/enter_any_characters"
+            android:text="@={loginViewModel.upperCaseText}"
+            app:layout_constraintTop_toBottomOf="@+id/tvUpperCase" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
