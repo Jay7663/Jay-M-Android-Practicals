@@ -20,4 +20,5 @@ object Constants {
     const val MVC_SUCCESS = "MVC Success"
     const val SUCCESS = "Success"
     const val MVP_SUCCESS = "MVP Success"
+    const val PACKAGE = "package"
 }

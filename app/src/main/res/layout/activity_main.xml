@@ -55,4 +55,11 @@
         android:layout_marginHorizontal="30dp"
         android:text="@string/architecture"/>
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnPermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/permission"/>
+
 </LinearLayout>
