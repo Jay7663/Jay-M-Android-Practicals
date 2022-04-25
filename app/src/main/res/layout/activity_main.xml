@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:text="@string/web_services" />
-    
+
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnArchitecture"
         android:layout_width="match_parent"
@@ -61,5 +61,12 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:text="@string/permission"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDesignSupportLibrary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="@string/design_support_library"/>
 
 </LinearLayout>

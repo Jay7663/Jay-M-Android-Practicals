@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/miFavourite"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:title="@string/favourite"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/miAdd"
+        android:icon="@drawable/ic_baseline_add_24"
+        android:title="@string/add"
+        app:showAsAction="ifRoom|withText" />
+    <item
+        android:id="@+id/mi1"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="@string/menu_item_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/mi2"
+        android:icon="@drawable/ic_baseline_add_shopping_cart_24"
+        android:title="@string/cart"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mi3"
+        android:icon="@drawable/ic_baseline_filter_frames_24"
+        android:title="@string/frame"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mi4"
+        android:icon="@drawable/ic_baseline_insert_photo_24"
+        android:title="@string/nav_item_gallery"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mi5"
+        android:icon="@drawable/ic_baseline_rate_review_24"
+        android:title="@string/review"
+        app:showAsAction="ifRoom" />
+</menu>
