@@ -1,109 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activities.UiWidgetsActivity">
 
-    <Button
-        android:id="@+id/btnSimple"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:text="@string/this_is_ui_widgets" />
+        android:id="@+id/linearLayout"
+        android:orientation="vertical">
 
-    <Button
-        android:id="@+id/btnCustomToast"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:text="@string/custom_toast" />
+        <Button
+            android:id="@+id/btnSimple"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="@string/this_is_ui_widgets" />
 
-    <ImageButton
-        android:id="@+id/btnImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:contentDescription="@string/this_is_image_button"
-        android:src="@drawable/ic_baseline_work_outline_24" />
+        <Button
+            android:id="@+id/btnCustomToast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="@string/custom_toast" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:text="@string/this_is_toggle" />
-
-    <androidx.appcompat.widget.SwitchCompat
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:text="@string/this_is_switch" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginVertical="10dp"
-        android:background="@color/design_default_color_primary" />
-
-    <RadioButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:text="@string/radio_button" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginVertical="10dp"
-        android:background="@color/design_default_color_primary" />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp">
-
-        <TextView
-            android:id="@+id/tvGender"
+        <ImageButton
+            android:id="@+id/btnImage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="7dp"
-            android:text="@string/gender"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/this_is_image_button"
+            android:src="@drawable/ic_baseline_work_outline_24" />
 
-        <RadioGroup
-            android:id="@+id/rgGender"
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="@string/this_is_toggle" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="@string/this_is_switch" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="10dp"
+            android:background="@color/design_default_color_primary" />
+
+        <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_toEndOf="@+id/tvGender">
+            android:layout_marginHorizontal="25dp"
+            android:text="@string/radio_button" />
 
-            <RadioButton
-                android:id="@+id/rbMale"
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="10dp"
+            android:background="@color/design_default_color_primary" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp">
+
+            <TextView
+                android:id="@+id/tvGender"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/male" />
+                android:layout_marginTop="7dp"
+                android:text="@string/gender"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
-            <RadioButton
-                android:id="@+id/rbFemale"
+            <RadioGroup
+                android:id="@+id/rgGender"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/female" />
-        </RadioGroup>
-    </RelativeLayout>
+                android:layout_toEndOf="@+id/tvGender">
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="2dp"
-        android:layout_marginVertical="10dp"
-        android:background="@color/design_default_color_primary" />
+                <RadioButton
+                    android:id="@+id/rbMale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male" />
 
-    <Button
-        android:id="@+id/btnGoToForm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="25dp"
-        android:text="@string/go_to_form" />
-</LinearLayout>
+                <RadioButton
+                    android:id="@+id/rbFemale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female" />
+            </RadioGroup>
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginVertical="10dp"
+            android:background="@color/design_default_color_primary" />
+
+        <Button
+            android:id="@+id/btnGoToForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="25dp"
+            android:text="@string/go_to_form" />
+
+    </LinearLayout>
+
+</ScrollView>

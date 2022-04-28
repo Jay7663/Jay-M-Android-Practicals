@@ -1,65 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnUiWidgets"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/go_to_ui_widgets" />
+        android:orientation="vertical">
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnLayouts"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/layouts" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnUiWidgets"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/go_to_ui_widgets" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnRecyclerViewAndAdapters"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/recyclerview_and_adapters" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLayouts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/layouts" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnActivityIntentFragment"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/activity_intent_and_fragment" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRecyclerViewAndAdapters"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/recyclerview_and_adapters" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnOtherImportantViews"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/other_important_views" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnActivityIntentFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/activity_intent_and_fragment" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnWebServices"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/web_services" />
-    
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnArchitecture"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/architecture"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnOtherImportantViews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/other_important_views" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/btnPermission"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:text="@string/permission"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnWebServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/web_services" />
 
-</LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnArchitecture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/architecture" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnPermission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:text="@string/permission" />
+
+    </LinearLayout>
+
+</ScrollView>
